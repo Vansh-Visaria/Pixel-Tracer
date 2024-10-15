@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error Level Analysis</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">Error Level Analysis Tool</h1>
+        <form method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="file">Upload Image:</label>
+                <input type="file" class="form-control-file" id="file" name="file" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Analyze</button>
+        </form>
+        {% with messages = get_flashed_messages() %}
+            {% if messages %}
+                <div class="alert alert-info mt-3">
+                    {{ messages[0] }}
+                </div>
+            {% endif %}
+        {% endwith %}
+    </div>
+</body>
+</html>
