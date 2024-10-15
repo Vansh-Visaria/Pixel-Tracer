@@ -1,4 +1,4 @@
-# Error Level Analysis Tool
+# Pixel-Tracer
 
 This project is a web application built with Flask that allows users to upload images and perform Error Level Analysis (ELA) to check for authenticity. The application provides a visual representation of the analysis results through marked images and heatmaps.
 
