@@ -21,7 +21,7 @@ This project is a web application built with Flask that allows users to upload i
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/error-level-analysis.git
+   git clone https://github.com/Hawk-of-Darkness/Pixel-Tracer.git
    cd error-level-analysis
 Install the required dependencies:
 
@@ -35,22 +35,9 @@ Copy code
 python app.py
 Open your web browser and navigate to http://127.0.0.1:5000.
 
-##Usage
+## Usage
 On the home page, upload an image file.
 Click on the "Analyze" button.
 The application will process the image and display the results on a new page, including:
 The marked image indicating areas of potential tampering.
 A heatmap visualizing the analysis results.
-
-##Directory Structure
-
-error-level-analysis/
-│
-├── app.py                   # Main application file
-├── requirements.txt         # Python dependencies
-├── static/                  # Static files (images, styles)
-│   └── results/             # Directory for storing analysis results
-├── templates/               # HTML templates
-│   ├── index.html           # Home page template
-│   └── results.html         # Results page template
-└── README.md                # Project documentation
