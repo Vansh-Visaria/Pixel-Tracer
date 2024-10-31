@@ -1,3 +1,4 @@
+#Code to tamper any image 
 from PIL import Image, ImageDraw
 import os
 
